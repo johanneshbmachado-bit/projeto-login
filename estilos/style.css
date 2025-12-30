@@ -50,3 +50,13 @@ section#login > div#form{
     display: block;
     padding: 10px;
 }
+
+div#form > p {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+div.forms{
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}

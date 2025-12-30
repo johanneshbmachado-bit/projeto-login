@@ -1,2 +1,91 @@
 @charset "UTF-8";
 /*Estilos Globais*/
+/*Paleta de Cores:
+    #EEDCB7-bege claro
+    #E5C18E-bege escuro
+    #D38F57-laranja claro
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: #D38F57;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+main{
+    min-height: 100vh;
+    background-color: #E5C18E;
+}
+
+section#cardapio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+section#cardapio a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+
+
+.card{
+    overflow: hidden;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.espresso{
+    background: black url(../imagens/cafe-espresso.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cafe-americano{
+    background: black url(../imagens/cafe-ameriacano.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cappuccino{
+    background: black url(../imagens/cafe-cappuccino.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.latte{
+    background: black url(../imagens/cafe-latte.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mocha{
+    background: black url(../imagens/cafe-mocha.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}

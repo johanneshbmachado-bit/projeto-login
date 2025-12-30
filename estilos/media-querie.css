@@ -6,7 +6,7 @@
     #D38F57-laranja claro
 */
 
-@media screen and (min-width:600px) and (max-width:1119px){
+@media screen and (min-width:600px) and (max-width:1199px){
     body{
         background: linear-gradient(#EEDCB7, #E5C18E, #D38F57);
     }
